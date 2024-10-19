@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #121529;
+  color: #fff;
+}
+
+h1 {
+  font-size: 48px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.sticky-content {
+  position: sticky;
+  top: 0;
+}
+
+.finla-card {
+  background-color: #2c3245;
+  border: 2px solid #3f4a66;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: justify;
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.finla-card p {
+  line-height: 1.8;
+}
+
+.finla-card ul li {
+  line-height: 1.8;
+}
+
+
+iframe {
+  border: none;
+}
+
+/* Adjusting the iframe height */
+.iframe-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 112%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.iframe-content {
+  width: 100%;
+  height: 100%;
+  bottom: 30px;
+  position: relative;
+}
+
+.finla-frame-left {
+  padding-top: 10px;
+}
+
+.logo {
+  width: 100%;
+
+}
+
+.logo img {
+  width: 200px;
+  position: relative;
+  padding: 10px 0px 80px 0px;
+  float: inline-start;
+}
